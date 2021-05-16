@@ -1,14 +1,37 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-//list of possible choices 
+//list of possible choices for the function
 
 var smalls = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w","x", "y", "z"]
 var biggie = ["A", "B", "C", "D", "E", "F","G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 var numbers = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 var characters = ["!", "@", "#", "$", "%", "^", "&" , "*", "+" , "-"]
 
+// variables for user selection
+
+var yesPlay = "Yes I want a password"
+var noPlay = "No thank you"
+
+
+
+
+
+
+
+
 //errors has to go somewhere
+
+///* so i need a set of functions with prompts to use user data to construct password
+//first question should ask if you want to generate a password
+//after that how many characters
+//second question should ask if you want numbers
+//third should ask if you want upper case letters
+//fourth should as if you want lower case letters
+//
+//you need functions for each scenario that cascade with the last using return to stop function? 
+
+
 
 
 // Write password to the #password input
