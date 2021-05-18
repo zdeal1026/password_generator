@@ -31,8 +31,8 @@ if (!enter) {
 } else if (enter < 8 || enter > 128) {
   enter parseInt(prompt("PLEASE slect a number between 8 and 128"));
 } else {
-  var confirmSmalls = confirm("Do you want lower case letters?");
   var confirmBiggies = confirm("Do you want upper case letters?");
+  var confirmSmalls = confirm("Do you want lower case letters?");
   var confirmNumbers = confirm("Do you want numbers?");
   var confirmSpecials = confirm("Do you want special characters?");
 };
@@ -47,33 +47,82 @@ if (!confirmSmalls && !confirmBiggies && !confirmNumbers && !confirmSpecials) {
 else if (confirmSmalls && confirmBiggies && confirmNumbers && confirmSpecials) {
   choices = character.concat(biggies, smalls, specials, numbers);
 
- //user picks three
+ //user picks three************
 
 //biggie numbers and specials
 } else if (confirmBiggies && confirmNumbers && confirmSpecials) {
   
-  choice = character.concat(biggies, numbers, specials)
+  choice = biggies.concat( numbers , specials);
 }
 //biggie numbers and smalls
 else if (confirmBiggies && confirmNumbers && confirmSmalls) {
 
-  choice = character.concat(biggies, numbers, smalls)
+  choice = biggies.concat( numbers , smalls);
 }
 //biggie smalls and specials
 
 else if (confirmBiggies && confirmSmalls && confirmSpecials) {
 
-  choice = character.concat(Biggies, smalls, specials)
+  choice = biggies.concat(smalls, specials);
 } 
 //smalls numbers specials
 else if (confirmSmalls && confirmNumbers && confirmSpecials) {
 
-  choice = character.concat(smalls, specials, numbers)
+  choice = smalls.concat( numbers, specials);
 
 }
 
+//user picks 2 *************
 
-//user picks 2
+else if (confirmBiggies && confirmSmalls) {
+
+  choices = biggies.concat(smalls);
+
+} else if (confirmBiggies && confirmNumbers) {
+  
+  choices = biggies.concat(numbers);
+
+} else if ( confirmBiggies && confirmSpecials) {
+
+  choices = biggies.concat(specials);
+
+} else if ( confirmSmalls && confirmNumbers) {
+
+choices = smalls.concat(numbers); {
+
+  else if ( confirmSmalls && confirmSpecials) {
+
+    choices = smalls.concat(specials)
+  
+  }else if (confirmNumbers && confirmSpecials) {}
+
+ choices = numbers.concat(specials)
+}
+
+//user picks 1 *************
+else if (confirmBiggies) {
+  
+  choices = biggies; 
+
+} else if (confirmSmalls) {
+
+  choices = smalls;
+
+} else if (confirmNumbers) {
+
+  choices = numbers;
+
+} else if (confirmSpecials) {
+
+  choices - specials; 
+
+};
+
+
+
+
+
+
 
 
 //user picks 1
