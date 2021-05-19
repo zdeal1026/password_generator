@@ -36,7 +36,7 @@ The purpose of this exercise is to create a working javascript file to make a pa
 
 
 # Notes
-This task was extrememly difficult at first. In my head everything was jumbling up but it became clearer the further into it I got. Creating a drawing and taking notes on paper really helped with this but I am working so that I don't have to use this method because it is time consuming.
+This task was extrememly difficult. I was unable to get the password to generate. The prompts kept looping and I couldn't figure out how to fix it. 
 
 # Credits
 Matierial and ideas borrowed from Trilogy Education services along with teachings from Anthony Cooper and Sasha Peterson. Youtube videos on password generators also utilized.
@@ -44,7 +44,9 @@ Matierial and ideas borrowed from Trilogy Education services along with teaching
 
 # Screenshot        
 
-<img src=""/>
+<img src=".images/screenshot.png"/>
 
 
 # Link
+
+https://zdeal1026.github.io/password_generator/
