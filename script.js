@@ -39,14 +39,14 @@ function generatePassword() {
 
   }
 
-   if (select < 8 && select > 128) {
+  else if (select < 8 && select > 128) {
 
     select = parseInt(prompt("PLEASE slect a number between 8 and 128"));
     //parseint funciton parses a string argument and returns the integer of the specified base
 
   }
 
-   {
+  else {
     confirmBiggies = confirm("Do you want upper case letters?");
     confirmSmalls = confirm("Do you want lower case letters?");
     confirmNumbers = confirm("Do you want numbers?");
@@ -157,12 +157,10 @@ for (var i = 0; i < select; i++) {
 var pw = password.join("");
 userInput(pw);
 return pw;
-
 }
 
 
 function userInput(pw) {
-
   document.getElementById("password").textContent = pw;
 
 }
