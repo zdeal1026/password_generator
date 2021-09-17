@@ -44,7 +44,7 @@ Matierial and ideas borrowed from Trilogy Education services along with teaching
 
 # Screenshot        
 
-<img src=".images/screenshot.png"/>
+![screenshot](https://user-images.githubusercontent.com/82068157/133859397-c2e9957a-6143-46c4-a09f-6a933b0453c2.png)
 
 
 # Link
